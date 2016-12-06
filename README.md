@@ -10,3 +10,5 @@ Uncomment  corresponding lines to run one of the moethods.
 Right now, 1/t decay method is in use.
 
 3. In third change I have used sigmoid function instead of tanh function for forward propogation(changes for forward propogation are made at 3 places, line 52,69,101). In the backpropgation i have used derivative of sigmoid, which is 'sigmoid_function(x)(1-sigmoid_function(x))'-> change on line 114.
+
+Pls note that train_img.csv was too big a file. So use alternate data or use some portion of test data for training and some for testing.
